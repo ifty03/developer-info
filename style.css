@@ -7,9 +7,26 @@ h1 {
 .ashik {
   color: orange;
 }
-.wellcome {
-  width: 45%;
+section {
+  display: flex;
 }
-.image {
-  width: 45%;
+.wellcome {
+  width: 55%;
+  margin-left: 60px;
+}
+.image img {
+  width: 75%;
+  margin-left: 120px;
+}
+.facbook-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: white;
+  font-weight: 500;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+.top-baner {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
